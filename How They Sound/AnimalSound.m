@@ -18,17 +18,36 @@
         case COW:
             _name = @"Cow";
             _sound = @"MOOO";
+            _numberOfLegs = [ NSNumber numberWithInt:4];
             break;
             
         case DOG:
             _name = @"Dog";
             _sound = @"WOOF";
+            _numberOfLegs = [ NSNumber numberWithInt:4];
             break;
             
         case CAT:
             _name = @"Cat";
             _sound = @"MEOW";
+            _numberOfLegs = [ NSNumber numberWithInt:4];
             break;
+            
+        case HORSE:
+            _name = @"Horse";
+            _sound = @"NEEIGH";
+            _numberOfLegs = [ NSNumber numberWithInt:4];
+            break;
+            
+        case DUCK:
+            _name = @"Duck";
+            _sound = @"Quack";
+            _numberOfLegs = [ NSNumber numberWithInt:2];
+            
+        case CHICKEN:
+            _name = @"Chicken";
+            _sound = @"Cluck";
+            _numberOfLegs = [ NSNumber numberWithInt:2];
             
         default: return Nil;
             break;

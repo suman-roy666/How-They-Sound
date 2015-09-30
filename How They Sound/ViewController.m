@@ -72,7 +72,8 @@
     
     [self hideAllContainers];
     
-    NSLog(@"%@ says %@",animal.name, animal.sound);
+    NSLog(@"The %@ says %@",animal.name, animal.sound);
+    NSLog(@"The %@ has %@ legs",animal.name, animal.numberOfLegs);
     
     NSMutableString *displaytext = [ NSMutableString stringWithString:@"The " ];
     

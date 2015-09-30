@@ -12,7 +12,10 @@ typedef NS_ENUM(NSInteger,animalType) {
     
     COW,
     DOG,
-    CAT
+    CAT,
+    HORSE,
+    DUCK,
+    CHICKEN
     
 } ;
 
@@ -21,6 +24,8 @@ typedef NS_ENUM(NSInteger,animalType) {
 @property (readonly) NSString* name;
 
 @property (readonly) NSString* sound;
+
+@property (readonly) NSNumber* numberOfLegs;
 
 @property animalType* animal;
 
