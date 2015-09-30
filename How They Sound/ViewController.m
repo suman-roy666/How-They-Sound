@@ -12,9 +12,12 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *displayLabel;
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollControl;
+
 @property (weak, nonatomic) IBOutlet UIView *cowSpeechContainer;
 @property (weak, nonatomic) IBOutlet UIView *catSpeechContainer;
 @property (weak, nonatomic) IBOutlet UIView *dogSpeechContainer;
+@property (weak, nonatomic) IBOutlet UIView *chickenSpeechContainer;
 
 @end
 
@@ -28,12 +31,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    [self.scrollControl setScrollEnabled:TRUE];
+    [self.scrollControl setContentSize:CGSizeMake(358, 1191) ];
+    
     containerArray = [NSArray arrayWithObjects:_cowSpeechContainer,
                                                 _catSpeechContainer,
                                                 _dogSpeechContainer,
+                                                _chickenSpeechContainer,
                                                 nil];
     
     [self hideAllContainers];
+}
+
+- (IBAction)chickenButtonTapHandler:(id)sender {
+    
+    AnimalSound *chicken = [[AnimalSound alloc] initWithType:CHICKEN ];
+    
+    [self displayAnimalSound:chicken];
+    
+    _chickenSpeechContainer.hidden = FALSE;
 }
 
 - (IBAction)cowButtonTapHandler:(id)sender {
@@ -49,7 +65,7 @@
 - (IBAction)catButtonTapHandler:(id)sender {
     
     AnimalSound *cat = [[AnimalSound alloc] initWithType:CAT];
-
+    
     [self displayAnimalSound:cat ];
     
     _catSpeechContainer.hidden = FALSE;
@@ -60,7 +76,7 @@
 - (IBAction)dogButtonTapHandler:(id)sender {
     
     AnimalSound *dog = [[AnimalSound alloc] initWithType:DOG];
-
+    
     [self displayAnimalSound:dog ];
     
     _dogSpeechContainer.hidden = FALSE;
