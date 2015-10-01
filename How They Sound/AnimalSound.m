@@ -43,11 +43,13 @@
             _name = @"Duck";
             _sound = @"Quack";
             _numberOfLegs = [ NSNumber numberWithInt:2];
+            break;
             
         case CHICKEN:
             _name = @"Chicken";
             _sound = @"Cluck";
             _numberOfLegs = [ NSNumber numberWithInt:2];
+            break;
             
         default: return Nil;
             break;
