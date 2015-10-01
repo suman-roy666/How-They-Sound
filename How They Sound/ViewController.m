@@ -33,7 +33,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self.scrollControl setScrollEnabled:TRUE];
-    [self.scrollControl setContentSize:CGSizeMake(358, 1191) ];
+    [self.scrollControl setContentSize:CGSizeMake(358, 885) ];
     
     containerArray = [NSArray arrayWithObjects:_cowSpeechContainer,
                                                 _catSpeechContainer,
