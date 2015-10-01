@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UIView *catSpeechContainer;
 @property (weak, nonatomic) IBOutlet UIView *dogSpeechContainer;
 @property (weak, nonatomic) IBOutlet UIView *chickenSpeechContainer;
+@property (weak, nonatomic) IBOutlet UIView *duckSpeechContainer;
 
 @end
 
@@ -38,9 +39,19 @@
                                                 _catSpeechContainer,
                                                 _dogSpeechContainer,
                                                 _chickenSpeechContainer,
+                                                _duckSpeechContainer,
                                                 nil];
     
     [self hideAllContainers];
+}
+
+- (IBAction)duckButtonTapHandler:(id)sender {
+    
+    AnimalSound *duck = [[AnimalSound alloc] initWithType:DUCK ];
+    
+    [ self displayAnimalSound:duck ];
+    
+    _duckSpeechContainer.hidden = FALSE;
 }
 
 - (IBAction)chickenButtonTapHandler:(id)sender {
