@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>84D34D73-3AD0-449A-83B4-59FEEA7F4230</string>
 	<key>IDESourceControlProjectName</key>
-	<string>How They Sound</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4A7A25CA8D04E58ED8597766AFBA9DF81C60B7C2</key>
 		<string>https://github.com/sumanroy666/How-They-Sound.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>How They Sound.xcodeproj</string>
+	<string>How They Sound.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4A7A25CA8D04E58ED8597766AFBA9DF81C60B7C2</key>
