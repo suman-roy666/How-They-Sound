@@ -42,6 +42,8 @@
                                                 _duckSpeechContainer,
                                                 nil];
     
+    [ self.displayLabel setText: NSLocalizedString(@"displayLabel", @"")  ];
+    
     [self hideAllContainers];
 }
 
@@ -99,7 +101,7 @@
     
     [self hideAllContainers];
     
-    NSLog(@"The %@ says %@",animal.name, animal.sound);
+    NSLog(NSLocalizedString(@"says", @""),animal.name, animal.sound);
     NSLog(@"The %@ has %@ legs",animal.name, animal.numberOfLegs);
     
     NSMutableString *displaytext = [ NSMutableString stringWithString:@"The " ];

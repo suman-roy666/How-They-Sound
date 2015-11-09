@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  How They Sound
+
+  Created by Suman Roy on 09/11/15.
+  Copyright (c) 2015 Suman Roy. All rights reserved.
+*/
+"displayLabel" = "Que disent-ils?";
+"cow" = "Vache";
+"dog" = "Chien";
+"cat" = "Chat";
+"duck" = "Canard";
+"chicken" = "Poulet";
+"says" = "Le %@ dit %@";

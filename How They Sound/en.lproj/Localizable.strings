@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  How They Sound
+
+  Created by Suman Roy on 09/11/15.
+  Copyright (c) 2015 Suman Roy. All rights reserved.
+*/
+"displayLabel" = "What Do They Say?";
+"cow" = "Cow";
+"dog" = "Dog";
+"cat" = "Cat";
+"duck" = "Duck";
+"chicken" = "Chicken";
+"says" = "The %@ says %@";

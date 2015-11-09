@@ -16,19 +16,19 @@
     switch (type) {
             
         case COW:
-            _name = @"Cow";
+            _name = NSLocalizedString(@"cow", @"");
             _sound = @"MOOO";
             _numberOfLegs = [ NSNumber numberWithInt:4];
             break;
             
         case DOG:
-            _name = @"Dog";
+            _name = NSLocalizedString(@"dog", @"");
             _sound = @"WOOF";
             _numberOfLegs = [ NSNumber numberWithInt:4];
             break;
             
         case CAT:
-            _name = @"Cat";
+            _name = NSLocalizedString(@"cat", @"");
             _sound = @"MEOW";
             _numberOfLegs = [ NSNumber numberWithInt:4];
             break;
@@ -40,13 +40,13 @@
             break;
             
         case DUCK:
-            _name = @"Duck";
+            _name = NSLocalizedString(@"duck", @"");
             _sound = @"Quack";
             _numberOfLegs = [ NSNumber numberWithInt:2];
             break;
             
         case CHICKEN:
-            _name = @"Chicken";
+            _name = NSLocalizedString(@"chicken", @"");
             _sound = @"Cluck";
             _numberOfLegs = [ NSNumber numberWithInt:2];
             break;
