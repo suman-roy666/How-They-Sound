@@ -57,6 +57,7 @@
 		11598D631BBC1815005CDFCD /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken.png; sourceTree = "<group>"; };
 		118D06C21BBA521300D4DC8E /* speech_bubble_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speech_bubble_left.png; sourceTree = "<group>"; };
 		118D06C31BBA521300D4DC8E /* speech_bubble_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speech_bubble_right.png; sourceTree = "<group>"; };
+		11E52F8A1BF1C89900D5A899 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		11EC3C541BBD145400082CA4 /* duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duck.png; sourceTree = "<group>"; };
 		11ED2DD71BF0C19C00826365 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		11ED2DD81BF0C19C00826365 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -296,6 +297,7 @@
 				110F3A511BB95B9E003521FD /* Base */,
 				11ED2DD71BF0C19C00826365 /* fr */,
 				11ED2DDD1BF0D45A00826365 /* ja */,
+				11E52F8A1BF1C89900D5A899 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
